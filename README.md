@@ -1,5 +1,5 @@
 # Lima-Air-Quality-Analysis
-The Lima Air Quality Analysis project aims to collect, analyze and visualize air quality data in the city of Lima, Peru. We will use APIs to obtain real-time data from https://waqi.info/
+The Lima Air Quality Analysis project aims to collect, analyze and visualize air quality data in the city of Lima, Peru.
 
 ## Goals:
 * Collect data: Use API to obtain real-time air quality data every 3 minutes, including concentrations of pollutants such as PM2.5, PM10, NO2, SO2, O3 and CO.
