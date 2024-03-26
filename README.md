@@ -15,7 +15,8 @@ GitHub: Para alojar el código fuente, documentación y colaboración.
 
 Power BI: Dashboard Interactivo 
 ## Dashboard en Power BI
-![image](https://github.com/haroldeustaquio/Lima-Air-Quality-Analysis/assets/138983271/ad51ae61-8b4d-47eb-b139-2f7f5a47b22f)
+
+[![Alt Text](![image](https://github.com/haroldeustaquio/Lima-Air-Quality-Analysis/assets/138983271/1d03f9ee-8c98-4b3b-a279-cf1e96b50712))(https://www.youtube.com/watch?v=a4PIAYFzh34E)]
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/" frameborder="0" allowfullscreen></iframe>
+
