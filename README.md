@@ -18,4 +18,7 @@ Power BI: Interactive Dashboard
 
 ## Dashboard in Power BI
 
-Access the dashboard:
+Access the dashboard: https://bit.ly/3TxgXTb
+
+![image](https://github.com/haroldeustaquio/Lima-Air-Quality-Analysis/assets/138983271/d5a81154-e7a6-4336-a7f3-a5ffa5165548)
+
