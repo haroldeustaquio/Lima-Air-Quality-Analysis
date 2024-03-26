@@ -1,22 +1,20 @@
 # Lima-Air-Quality-Analysis
-El proyecto Lima Air Quality Analysis tiene como objetivo recopilar, analizar y visualizar datos de calidad del aire en la ciudad de Lima, Perú. Utilizaremos APIs para obtener datos en tiempo real de https://waqi.info/ 
+The Lima Air Quality Analysis project aims to collect, analyze and visualize air quality data in the city of Lima, Peru. We will use APIs to obtain real-time data from https://waqi.info/
 
-## Objetivos:
-Recopilar Datos: Utilizar API para obtener datos de calidad del aire, incluyendo concentraciones de contaminantes como PM2.5, PM10, NO2, SO2, O3 y CO.
+## Goals:
+Collect Data: Use API to obtain air quality data, including concentrations of pollutants such as PM2.5, PM10, NO2, SO2, O3 and CO.
 
-Análisis y Visualización: Analizar los datos recopilados para identificar tendencias, patrones y anomalías en la calidad del aire. Utilizar técnicas de visualización de datos para comunicar los resultados de manera efectiva.
+Analysis and Visualization: Analyze collected data to identify trends, patterns and anomalies in air quality. Use data visualization techniques to communicate results effectively.
 
-Generar Insights: Proporcionar insights sobre la calidad del aire en Lima, incluyendo áreas con altos niveles de contaminación, factores que contribuyen a la mala calidad del aire y recomendaciones para mejorarla.
+Generate Insights: Provide insights into air quality in Lima, including areas with high levels of pollution, factors that contribute to poor air quality, and recommendations to improve it.
 
-## Tecnologías Utilizadas:
-Python: requests, pandas (Obtención de datos a través de la API de https://waqi.info/) 
+## Used technology:
+Python: requests, pandas (Getting data using API through the https://waqi.info/)
 
-GitHub: Para alojar el código fuente, documentación y colaboración.
+GitHub: To host source code, documentation and collaboration.
 
-Power BI: Dashboard Interactivo 
+Power BI: Interactive Dashboard
 
-## Dashboard en Power BI
+## Dashboard in Power BI
 
-Accede al dashboard: 
-
-
+Access the dashboard:
