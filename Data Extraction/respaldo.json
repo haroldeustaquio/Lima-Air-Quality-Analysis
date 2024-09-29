@@ -1,0 +1,41 @@
+{
+    "status": "ok",
+    "data": {
+        "dominentpol": null,
+        "iaqi": {
+            "co": {
+                "v": null
+            },
+            "h": {
+                "v": null
+            },
+            "no2": {
+                "v": null
+            },
+            "o3": {
+                "v": null
+            },
+            "p": {
+                "v": null
+            },
+            "pm10": {
+                "v": null
+            },
+            "pm25": {
+                "v": null
+            },
+            "so2": {
+                "v": null
+            },
+            "t": {
+                "v": null
+            },
+            "wg": {
+                "v": null
+            }
+        },
+        "time": {
+            "s": null
+        }
+    }
+}
