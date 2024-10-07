@@ -14,7 +14,5 @@ while True:
     # place['location']= place['location'].apply(lambda x: clean_string(x))
     # place['distrito']= place['distrito'].apply(lambda x: clean_string(x))
     # place.to_csv("data/place.csv",index=False)
-
     print("Hecho")
-    sleep
-    sleep(1807)
+    sleep(5)
