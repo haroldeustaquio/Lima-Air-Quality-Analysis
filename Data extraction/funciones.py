@@ -88,7 +88,6 @@ def clean_data(df):
     return df_final
 
 
-
 def clean_string(txt:str) -> str:
     txt = (txt).strip()
     tildes = ["á","é","í","ó","ú"]
