@@ -23,7 +23,6 @@ while (True):
         query = f"INSERT INTO {table} ({cols}) VALUES ({', '.join(['?' for _ in values])})"
         cursor.execute(query, values)
         print(f"hecho x{i}")
-
     conn.commit()
     conn.close()
     sleep(150)
