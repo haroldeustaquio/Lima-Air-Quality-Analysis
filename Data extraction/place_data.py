@@ -8,6 +8,7 @@ places = ["peru/lima/san-martin-de-porres","peru/lima/campo-de-marte","peru/lima
         "A408370",
         "A408367"]
 
+
 conn = conect_db()
 cursor = conn.cursor()
 for i,place in enumerate(places,start=1):
@@ -18,6 +19,6 @@ for i,place in enumerate(places,start=1):
     query = f"UPDATE {table} SET {cols} = ? WHERE id_place = {i}"
     cursor.execute(query, values)
     print("hecho")
-
+    
 conn.commit()
 conn.close()
