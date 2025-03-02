@@ -51,5 +51,3 @@ sensorID = [
 
 values = [(sensor,) for sensor in sensorID]
 f.execute_bulk_insert("air_data.places", ["sensorID"], values)
-
-print(f.select_query("select * from air_data.places"))
