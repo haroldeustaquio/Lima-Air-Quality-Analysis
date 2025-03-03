@@ -20,7 +20,7 @@ The database architecture is designed to be scalable and is hosted on AWS, ensur
 ## Architecture
 
 <p align="center">
-    <img src="https://github.com/user-attachments/assets/c23566b3-5f31-4520-a88b-feb54ca1b155" alt="Architecture Diagram">
+    <img src=https://github.com/user-attachments/assets/60f19eb5-52f6-48df-bb7c-4b623837d43b alt="Architecture Diagram">
 </p>
 
 <p align="center"><em>Figure 1: Database architecture in AWS</em></p>
