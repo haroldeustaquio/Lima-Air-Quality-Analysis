@@ -2,9 +2,7 @@
 
 ## Overview
 
-The database for the Lima Air Quality Analysis project is designed to store and manage data related to air quality measurements collected from various locations in Lima, Peru.
-
-The database architecture is designed to be scalable and is hosted on AWS, ensuring reliability and performance. The architecture diagram below provides a visual representation of the database setup.
+The database for the Lima Air Quality Analysis project is designed to store and manage data related to air quality measurements collected from various locations in Lima, Peru. The database architecture is designed to be scalable and is hosted on AWS, ensuring reliability and performance. The architecture diagram below provides a visual representation of the database setup.
 
 ---
 
