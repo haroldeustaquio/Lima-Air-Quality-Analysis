@@ -1,4 +1,4 @@
-# Lima Air Quality
+# Air Quality Lima
 
 ## Overview
 
@@ -68,7 +68,7 @@ You can access the live dashboard [here](https://your-dashboard-link.com).
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/your-repo/lima-air-quality.git
+git clone https://github.com/haroldeustaquio/Air-Quality-Lima
 cd lima-air-quality
 ```
 
