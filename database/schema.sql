@@ -10,7 +10,7 @@ CREATE TABLE IF NOT EXISTS places (
 
 CREATE TABLE IF NOT EXISTS air (
     id INT PRIMARY KEY AUTO_INCREMENT,
-    sensorID VARCHAR(255),
+    sensorID INT,
     date DATETIME,
     co FLOAT,
     humidity FLOAT,
@@ -21,6 +21,7 @@ CREATE TABLE IF NOT EXISTS air (
     pm25 FLOAT,
     so2 FLOAT,
     temperature FLOAT
+    FOREIGN KEY (sensorID) REFERENCES places(id),
 );
 
 

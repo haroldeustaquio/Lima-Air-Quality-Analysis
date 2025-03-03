@@ -17,7 +17,7 @@ create table if not exists air_data.places(
 table_creation_2 = """
 create table if not exists air_data.air(
     id int primary key auto_increment,
-    sensorID varchar(255),
+    sensorID int,
     date datetime,
     co float,
     humidity float,
@@ -28,6 +28,7 @@ create table if not exists air_data.air(
     pm25 float,
     so2 float,
     temperature float
+    FOREIGN KEY (sensorID) REFERENCES air_data.places(id)
 )
 """
 
