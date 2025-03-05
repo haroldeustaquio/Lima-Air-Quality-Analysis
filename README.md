@@ -28,12 +28,14 @@ This project consists of three main components:
 The database is hosted on **AWS RDS (MySQL)** and is responsible for storing all air quality data. It consists of tables that keep track of sensor locations and recorded measurements.
 
 <p align="center">
-    <img src="https://github.com/user-attachments/assets/60f19eb5-52f6-48df-bb7c-4b623837d43b" alt="Database Architecture">
+    <img src="https://github.com/user-attachments/assets/e6408af8-7cd7-4581-bcbe-9987d4058335" alt="Database Architecture">
 </p>
 
 **Key Tables:**
-- **Places**: Stores information about sensor locations.
-- **Air**: Stores air quality measurements such as CO, NO₂, O₃, PM2.5, and temperature.
+
+- **Places**: Stores information about the locations where air quality sensors are placed. Each entry includes details such as country, city, sensor ID, district, URL, geographical coordinates, and data source.
+- **Air**: Records air quality measurements collected by the sensors. Each entry includes the sensor ID, date, and various pollutant levels such as CO, NO₂, O₃, PM10, PM2.5, SO₂, humidity, pressure, and temperature.
+- **Metric Description**: Provides descriptions for the various metrics recorded in the air quality measurements, detailing what each metric represents.
 
 ---
 
@@ -54,13 +56,13 @@ The data pipeline is responsible for **automating data ingestion, formatting, an
 
 ### Dashboard
 
-The dashboard provides **interactive visualizations and analytical insights** into the air quality trends in Lima. It connects to the database and displays metrics such as **historical trends, real-time air quality index, and pollutant levels**.
+The dashboard provides **interactive visualizations** into the air quality trends in Lima. It connects to the database and displays metrics such as **historical trends, real-time air quality index, and sensor information**.
 
 <p align="center">
-    <img src="https://github.com/user-attachments/assets/3d2f1b2e-8f4e-4b8e-9b6e-3b2f1b2e8f4e" alt="Dashboard Screenshot">
+    <img src="https://github.com/user-attachments/assets/09a76a18-0758-4607-b940-09ed7af3d605" alt="Dashboard Screenshot">
 </p>
 
-You can access the live dashboard [here](https://your-dashboard-link.com).
+You can access the live dashboard [here](https://acortar.link/xXBReb).
 
 ---
 

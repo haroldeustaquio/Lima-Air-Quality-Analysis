@@ -12,13 +12,14 @@ The database for the Lima Air Quality Analysis project is designed to store and 
 - [Tables](#tables)
     - [Places](#places-table)
     - [Air](#air)
+    - [Metric Description](#metric-description)
 
 ---
 
 ## Architecture
 
 <p align="center">
-    <img src=https://github.com/user-attachments/assets/60f19eb5-52f6-48df-bb7c-4b623837d43b alt="Architecture Diagram">
+    <img src=https://github.com/user-attachments/assets/e6408af8-7cd7-4581-bcbe-9987d4058335 alt="Architecture Diagram">
 </p>
 
 <p align="center"><em>Figure 1: Database architecture in AWS</em></p>
@@ -31,12 +32,17 @@ The database for the Lima Air Quality Analysis project is designed to store and 
 
 This table stores information about the locations where air quality sensors are placed. Each entry represents a unique place with details such as country, city, and sensor ID.
 
-| Column    | Type         | Constraints                |
-|-----------|--------------|----------------------------|
-| id        | INT          | PRIMARY KEY, AUTO_INCREMENT|
-| country   | VARCHAR(255) | DEFAULT 'Peru'             |
-| city      | VARCHAR(255) | DEFAULT 'Lima'             |
-| sensorID  | VARCHAR(255) | NOT NULL                   |
+| Column   | Type         | Constraints                |
+|----------|--------------|----------------------------|
+| id       | INT          | PRIMARY KEY, AUTO_INCREMENT|
+| country  | VARCHAR(255) | DEFAULT 'Peru'             |
+| city     | VARCHAR(255) | DEFAULT 'Lima'             |
+| sensorID | VARCHAR(255) | NOT NULL                   |
+| district | VARCHAR(255) |                            |
+| url      | VARCHAR(255) |                            |
+| geo_x    | FLOAT        |                            |
+| geo_y    | FLOAT        |                            |
+| source   | VARCHAR(255) |                            |
 
 ### Air
 
@@ -45,7 +51,7 @@ This table records the air quality measurements collected by the sensors. Each e
 | Column      | Type         | Constraints                |
 |-------------|--------------|----------------------------|
 | id          | INT          | PRIMARY KEY, AUTO_INCREMENT|
-| sensorID    | INT          | 🔑 REFERENCES places(id)    |
+| sensorID    | INT          | 🔑 REFERENCES places(id)   |
 | date        | DATETIME     |                            |
 | co          | FLOAT        |                            |
 | humidity    | FLOAT        |                            |
@@ -57,4 +63,11 @@ This table records the air quality measurements collected by the sensors. Each e
 | so2         | FLOAT        |                            |
 | temperature | FLOAT        |                            |
 
+### Metric Description
 
+This table provides descriptions for the various metrics recorded in the air quality measurements. Each entry corresponds to a specific metric and its description.
+
+| Column      | Type         | Constraints                |
+|-------------|--------------|----------------------------|
+| metric      | VARCHAR(255) | PRIMARY KEY                |
+| description | TEXT         |                            |
