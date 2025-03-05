@@ -13,11 +13,24 @@ This project consists of three main components:
 
 ## Content
 
+- [Dashboard](#dashboard)
 - [Architecture](#architecture)
   - [Database](#database)
   - [Data Pipeline](#data-pipeline)
-  - [Dashboard](#dashboard)
 - [Usage](#usage)
+
+---
+
+## Dashboard
+
+The dashboard provides **interactive visualizations** into the air quality trends in Lima. It connects to the database and displays metrics such as **historical trends, real-time sensor information**.
+
+You can access the live dashboard [here](https://acortar.link/xXBReb).
+
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/09a76a18-0758-4607-b940-09ed7af3d605" alt="Dashboard Screenshot">
+</p>
+
 
 ---
 
@@ -51,18 +64,6 @@ The data pipeline is responsible for **automating data ingestion, formatting, an
 - **Data Retrieval**: Fetches real-time air quality data via API.
 - **Data Formatting**: Structures and formatting the data.
 - **Data Storage**: Inserts formatted data into the database.
-
----
-
-### Dashboard
-
-The dashboard provides **interactive visualizations** into the air quality trends in Lima. It connects to the database and displays metrics such as **historical trends, real-time air quality index, and sensor information**.
-
-<p align="center">
-    <img src="https://github.com/user-attachments/assets/09a76a18-0758-4607-b940-09ed7af3d605" alt="Dashboard Screenshot">
-</p>
-
-You can access the live dashboard [here](https://acortar.link/xXBReb).
 
 ---
 

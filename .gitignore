@@ -3,4 +3,3 @@ __pycache__/
 .env
 lambda_package/
 python/
-temp/
